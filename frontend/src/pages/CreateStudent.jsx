@@ -44,6 +44,7 @@ const CreateStudent = () => {
 
   return (
     <div className="container mt-4">
+    <Link to="/addCourse"> Add Course</Link>
       <h2>Add Student</h2>
     <Link to="/allCourse">Go To Courses</Link>
 

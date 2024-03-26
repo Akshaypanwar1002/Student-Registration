@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
- const dbConnection = () => {
+const dbConnection = () => {
   mongoose
-    .connect("mongodb://localhost:27017", {
+    .connect("mongodb://127.0.0.1:27017", {
       dbName: "akshay",
     })
     .then(() => {
